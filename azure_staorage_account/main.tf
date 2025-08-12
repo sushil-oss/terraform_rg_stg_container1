@@ -2,7 +2,7 @@ resource "azurerm_storage_account" "teststg1" {
     name = "myfirststorage11"
     resource_group_name = "myfirstrg11"
     location = "central us"
-    account_tier = "standard"
+    account_tier = "Standard"
     account_replication_type = "GRS"
   }
 
